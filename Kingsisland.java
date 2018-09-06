@@ -7,24 +7,24 @@ public class Kingsisland {
 		// TODO Auto-generated method stub
 
 		int peps;
-		float parking$, food$, total$, perpep$;
+		double parking$, food$, total$, perpep$;
 		Scanner keyboard = new Scanner(System.in);
 
 		System.out.print("How many People ");
 		peps = keyboard.nextInt();
 
 		System.out.print("Parking Amount ");
-		parking$ = keyboard.nextInt();
+		parking$ = keyboard.nextDouble();
 
 		System.out.print("Food Cost ");
-		food$ = keyboard.nextInt();
+		food$ = keyboard.nextDouble();
 
 
 
 		total$ = (parking$ + food$);
 		perpep$ = (total$/peps);
-		System.out.print("Your total is " + total$);
-		System.out.print("  Your Average per Person is " + perpep$ + "  ");
+		System.out.printf("Your total is " + total$);
+		System.out.printf("  Your Average per Person is " + perpep$ + "  ");
 	}
 
 }
