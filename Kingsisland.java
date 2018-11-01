@@ -7,7 +7,7 @@ public class Kingsisland {
 		// TODO Auto-generated method stub
 
 		int peps;
-		double parking$, food$, total$, perpep$, unused;
+		double parking$, food, total$, perpep$, unused;
 		Scanner keyboard = new Scanner(System.in);
 
 		
@@ -19,7 +19,7 @@ public class Kingsisland {
 		parking$ = keyboard.nextDouble();
 
 		System.out.print("Food Cost ");
-		food$ = keyboard.nextDouble();
+		food = keyboard.nextDouble();
 
 
 
